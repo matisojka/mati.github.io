@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Compilers | mati locus]]></title>
+  <link href="http://mati.github.io/blog/categories/compilers/atom.xml" rel="self"/>
+  <link href="http://mati.github.io/"/>
+  <updated>2014-04-14T22:57:23+02:00</updated>
+  <id>http://mati.github.io/</id>
+  <author>
+    <name><![CDATA[Mati Sójka]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What Is a Compiler?]]></title>
+    <link href="http://mati.github.io/b/what-is-a-compiler/"/>
+    <updated>2014-04-13T22:43:06+02:00</updated>
+    <id>http://mati.github.io/b/what-is-a-compiler</id>
+    <content type="html"><![CDATA[<p><blockquote><p>Much of my work has come from being lazy.</p><footer><strong>John Backus</strong> <cite>Creator of Fortran</cite></footer></blockquote></p>
+
+<h3>A compiler is a translator.</h3>
+
+<p>Simple, huh? Indeed, the concept behind a compiler is pretty straight forward.
+We have a program written in one language, and ask our hero &ndash; The Compiler &ndash;
+to translate it into another language.</p>
+
+<p>But when it comes to the very process of translating, things get a little bit
+involved. A compiler takes care of a lot of different processes that put
+together allow to create a new version of a program. The most common use case
+is translating a high-level programming language into a low-level one
+(hint: assembly). Sometimes the translation is done straight into machine or
+byte code.</p>
+
+<h3>Why do we even need code compilation?</h3>
+
+<p>In order to answer that question, we have to go back in history. Back in the
+50s, programming was quite different than now. Resources were limited and
+ software costs passed those of hardware. Scientists and engineers began to
+worry about reducing programmers' productivity in order to cut those huge costs.</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<p>Soon enough, Backus realized that what would greatly improve speed of execution
+and reduce memory consumption would be a program that would <em>translate</em> a
+a complete program written in a high-level language into machine code, and than
+execute the translated program. This is how Fortran and its compiler were
+created.</p>
+
+<p>What&rsquo;s interesting is, that even today, programming languages that are compiled
+run faster and consume less memory than the interpreted ones, so it still holds
+true after 60 years of computer science.</p>
+
+<h3>The benefits of compilers are immense</h3>
+
+<p>Compilers not only allow to program in a more user-friendly language, but also
+allow to abstract machine differences. We write the code once, and compilers
+translate our code into different machine languages and dialects.</p>
+
+<p>But after finding out all those benefits, we still don&rsquo;t actually know how
+compilers do their job. Let&rsquo;s change that.</p>
+
+<h3>The compilation process</h3>
+
+<p>Take a look at the following graph:</p>
+
+<p><img src="/images/posts/compiler.svg"></p>
+
+<p>What we see here is that first of all, the compiler takes care of the
+translation of the source code into a target code. After that, we just take the
+<em>target code</em>, also called <em>target program</em>, and run it by providing it some
+data. In this scenario, the compiler&rsquo;s work actually finishes after the first
+step. So let&rsquo;s try to find out how this <em>Compiler</em> box actually works.</p>
+
+<h3>How compilation works</h3>
+
+<p>Explaining the whole process of compilation is definitely too much for one
+single blog post, so let&rsquo;s just get a quick overview of the different steps:</p>
+
+<ul>
+<li><strong>Lexical Analysis</strong>: the source code is read and converted into meaningful
+units, called <em>lexemes</em>. Those are then converted into <em>tokens</em>.</li>
+<li><strong>Syntax Analysis</strong> or <strong>Parsing</strong>: the tokens are parsed into an intermediate
+representation, called <em>syntax tree</em>.</li>
+<li><strong>Semantic Analysis</strong>: The <em>syntax tree</em> is used to check the semantic
+consistency with the language grammar.</li>
+<li><strong>Intermediate Code Generation</strong>: the compiler creates a low-level
+representation of the program. It is often built for an abstract machine,
+but can easily be translated into real machine code.</li>
+<li><strong>Code Optimization</strong>: optimization rules are applied to the intermediate
+code, in order to increase speed of execution or minimize memory or resource
+consumption. This is one of the most complex and unique parts of the
+compilation process.</li>
+<li><strong>Code Generation</strong>: the intermediate, optimized code is finally translated
+into the target language.</li>
+</ul>
+
+
+<h3>Summary</h3>
+
+<p>We have seen that a compiler is actually a translator, which makes programmers
+more productive and happy and the programs more universal and portable.
+To accomplish this task, there are some required steps like analyzing the input
+and generating the new output.</p>
+]]></content>
+  </entry>
+  
+</feed>
