@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[mati locus]]></title>
-  <link href="http://mati.github.io/atom.xml" rel="self"/>
-  <link href="http://mati.github.io/"/>
-  <updated>2014-04-14T22:57:23+02:00</updated>
-  <id>http://mati.github.io/</id>
+  <link href="http://yagooar.github.io/atom.xml" rel="self"/>
+  <link href="http://yagooar.github.io/"/>
+  <updated>2014-04-14T23:03:25+02:00</updated>
+  <id>http://yagooar.github.io/</id>
   <author>
     <name><![CDATA[Mati Sójka]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[What Is a Compiler?]]></title>
-    <link href="http://mati.github.io/b/what-is-a-compiler/"/>
+    <link href="http://yagooar.github.io/b/what-is-a-compiler/"/>
     <updated>2014-04-13T22:43:06+02:00</updated>
-    <id>http://mati.github.io/b/what-is-a-compiler</id>
+    <id>http://yagooar.github.io/b/what-is-a-compiler</id>
     <content type="html"><![CDATA[<blockquote><p>Much of my work has come from being lazy.</p><footer><strong>John Backus</strong> <cite>Creator of Fortran</cite></footer></blockquote>
 
 
@@ -74,7 +74,7 @@ compilers do their job. Let&rsquo;s change that.</p>
 
 <p>Take a look at the following graph:</p>
 
-<p><img src="http://mati.github.io/images/posts/compiler.svg"></p>
+<p><img src="http://yagooar.github.io/images/posts/compiler.svg"></p>
 
 <p>What we see here is that first of all, the compiler takes care of the
 translation of the source code into a target code. After that, we just take the

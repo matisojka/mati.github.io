@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Compilers | mati locus]]></title>
-  <link href="http://mati.github.io/blog/categories/compilers/atom.xml" rel="self"/>
-  <link href="http://mati.github.io/"/>
-  <updated>2014-04-14T22:57:23+02:00</updated>
-  <id>http://mati.github.io/</id>
+  <link href="http://yagooar.github.io/blog/categories/compilers/atom.xml" rel="self"/>
+  <link href="http://yagooar.github.io/"/>
+  <updated>2014-04-14T23:03:25+02:00</updated>
+  <id>http://yagooar.github.io/</id>
   <author>
     <name><![CDATA[Mati Sójka]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[What Is a Compiler?]]></title>
-    <link href="http://mati.github.io/b/what-is-a-compiler/"/>
+    <link href="http://yagooar.github.io/b/what-is-a-compiler/"/>
     <updated>2014-04-13T22:43:06+02:00</updated>
-    <id>http://mati.github.io/b/what-is-a-compiler</id>
+    <id>http://yagooar.github.io/b/what-is-a-compiler</id>
     <content type="html"><![CDATA[<p><blockquote><p>Much of my work has come from being lazy.</p><footer><strong>John Backus</strong> <cite>Creator of Fortran</cite></footer></blockquote></p>
 
 <h3>A compiler is a translator.</h3>
